@@ -5,7 +5,7 @@ class Solution:
         ptr1 = 0
         ptr2 = len(s)-1
         
-        s = [char for char in s]
+        s = list(s)
         
         while ptr1 < ptr2:
             if s[ptr1] not in vowels:
